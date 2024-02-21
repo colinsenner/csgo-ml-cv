@@ -22,7 +22,7 @@ https://github.com/colinsenner/csgo-ml-cv/assets/13701799/b07b3e05-b072-48e2-87f
 
 The model got good eventually, but it was quite a road to get there. 
 
-https://github.com/colinsenner/csgo-ml-cv/assets/13701799/8d81699f-bd74-4898-b9cb-66799a9ab5dd
+https://github.com/colinsenner/csgo-ml-cv/assets/13701799/28443b80-5f70-4681-8a5c-9c0c57e38562
 
 It's worth mentioning that the user doesn't see the detections on their screen, the detections are visible in the replays only and help score the user's performance and detect clippable portions of their gameplay (death, kill, etc.).
 
@@ -32,14 +32,14 @@ https://github.com/colinsenner/csgo-ml-cv/assets/13701799/786f3102-8360-46b8-adf
 
 A big problem with the original approach was I trained the model on full quality pngs, but ran the prediction against the compressed stream with quantized jpeg artifacts. Doh!
 
-[doh](images/doh.gif)
+![doh](images/doh.gif)
 
 Your training set needs to resemble your prediction case as much as possible.
 
 I'm not even sure what's going on with this model, everything is a terrorist, even HUD elements.
 
-[bad](images/bad.mp4)
+https://github.com/colinsenner/csgo-ml-cv/assets/13701799/474565d4-cfb2-4111-b1c2-5beddba90737
 
 Anyway, after many training iterations, revising the data test/train sets, asking different questions, we ended up with a nicely trained model which balanced object detection speed and accuracy well enough to clip user's gameplay in real-time and give them objective scores for their performance on metrics like crosshair placement, tracking, flicking, and many others.
 
-In the end, I still am terrible at CS:GO, and anyone under 25 can beat me, but this project was a ton of fun.
+In the end, I still am terrible at CS:GO, but this project was a ton of fun.
