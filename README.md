@@ -22,7 +22,7 @@ https://github.com/colinsenner/csgo-ml-cv/assets/13701799/b07b3e05-b072-48e2-87f
 
 The model got good eventually, but it was quite a road to get there. 
 
-https://github.com/colinsenner/csgo-ml-cv/assets/13701799/8d81699f-bd74-4898-b9cb-66799a9ab5dd
+https://github.com/colinsenner/csgo-ml-cv/assets/13701799/28443b80-5f70-4681-8a5c-9c0c57e38562
 
 It's worth mentioning that the user doesn't see the detections on their screen, the detections are visible in the replays only and help score the user's performance and detect clippable portions of their gameplay (death, kill, etc.).
 
